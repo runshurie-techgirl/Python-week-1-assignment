@@ -1,6 +1,12 @@
 # This program introduces me by storing my details in variables
+# and displaying them with the print() function.
 
-print("Hello! My name is {Run Hajir}.")
-print("I am {19} years old.")
-print("My favourite language is {Python}.")
-print("My goal for this course is to {learn Python well enough to build AI and automation tools that solve real problems for businesses and communities in Kenya}.")
+name = "Run Hajir"
+age = 19
+favourite_language = "Python"
+goal = "learn Python well enough to build AI and automation tools that solve real problems for businesses and communities in Kenya"
+
+print(f"Hello! My name is {name}.")
+print(f"I am {age} years old.")
+print(f"My favourite language is {favourite_language}.")
+print(f"My goal for this course is to {goal}.")
